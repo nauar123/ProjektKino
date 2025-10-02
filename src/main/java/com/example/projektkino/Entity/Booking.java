@@ -85,5 +85,5 @@ public class Booking {
     {
         return show != null && show.getFilm() != null ? show.getFilm().getSpilleTid() : null;
     }
-    
+
 }
