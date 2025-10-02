@@ -1,4 +1,12 @@
 package com.example.projektkino.Repository;
 
-public class BookingRepo {
+
+import com.example.projektkino.Entity.Booking;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface BookingRepo  extends JpaRepository<Booking,Integer> {
 }
+
+
+
+

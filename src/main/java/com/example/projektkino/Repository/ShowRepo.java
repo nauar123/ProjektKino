@@ -1,6 +1,10 @@
 package com.example.projektkino.Repository;
 
-public class ShowRepo {
+import com.example.projektkino.Entity.Show;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+
+public interface ShowRepo extends JpaRepository<Show, Integer> {
 
 
 
