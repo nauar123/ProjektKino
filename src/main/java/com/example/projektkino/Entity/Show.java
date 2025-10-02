@@ -9,7 +9,7 @@ import java.time.LocalTime;
 @Entity
 @Table(name ="show")
 
-public class Show {//kk
+public class Show {//kkjjjjjjj
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
