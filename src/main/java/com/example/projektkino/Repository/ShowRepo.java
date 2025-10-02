@@ -9,6 +9,4 @@ public interface ShowRepo extends JpaRepository<Show, Integer> {
 
 
 
-
-
 }
