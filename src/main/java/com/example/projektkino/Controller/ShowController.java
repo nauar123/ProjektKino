@@ -22,7 +22,7 @@ import java.util.Optional;
 public class ShowController
 {
     @Autowired
-    ShowRepo showRepo;
+    ShowRepo showRepo; //hhhh
 
 
     @GetMapping("/AllShows")
