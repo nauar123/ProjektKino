@@ -17,7 +17,7 @@ import java.util.Optional;
 
 
 @RestController
-@RequestMapping("allshows")
+@RequestMapping("show")
 @CrossOrigin(origins = "*")
 public class ShowController
 {

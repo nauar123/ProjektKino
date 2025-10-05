@@ -13,7 +13,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@RequestMapping("/film")
+@RequestMapping("film")
 @CrossOrigin(origins = "*") // Det er denne der gør at frontend har adgang, ellers ville browseren bolkorer http request
 public class FilmController {
 
