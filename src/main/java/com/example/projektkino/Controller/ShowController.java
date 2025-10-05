@@ -40,7 +40,7 @@ public class ShowController
     }
 
 
-    @GetMapping("/addShow")
+    @PostMapping("/addShow")
     public ResponseEntity<Show> createShow(@RequestBody Show show)
     {
         Show savedShow = showRepo.save(show);
